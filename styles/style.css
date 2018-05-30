@@ -1,0 +1,19 @@
+.wrapper
+{
+   max-width: 800px;
+   background-color: lavender;
+   margin: auto;
+   font-family: 'Roboto Slab', serif;
+   border: 2px solid black;
+   padding: 1em;
+}
+
+html
+{
+   background-color: #cf4647;
+}
+
+h1
+{
+   border-bottom: 2px solid black;
+}
