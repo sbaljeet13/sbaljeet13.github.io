@@ -1,19 +1,31 @@
 .wrapper
 {
-   max-width: 800px;
-   background-color: lavender;
+   max-width: 80%;
+   background-color: white;
    margin: auto;
    font-family: 'Roboto Slab', serif;
-   border: 2px solid black;
+   border-radius: 1em;
+   /* box-shadow: 8px 8px 2px rgba(0, 0, 255, .2); */
+   box-shadow: 0 2px 5px 2px rgba(0,0,0,.26);
    padding: 1em;
+   color: #039be5;
 }
 
 html
 {
-   background-color: #cf4647;
+   background-color: #f7f7f7;
 }
 
 h1
 {
    border-bottom: 2px solid black;
+}
+
+a{
+   color: #039be5;
+}
+
+a:hover
+{
+   color: black;
 }
