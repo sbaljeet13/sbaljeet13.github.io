@@ -185,7 +185,7 @@ footer h2
       display: block;
    }
 
-   main h2
+   main .right h2
    {
       float: left;
       width: 30%;
@@ -193,22 +193,24 @@ footer h2
       margin: 0;
    }
 
-   main section
+   main .right section
    {
       margin-left: 35%;
    }
 
-   /* main .left section
-   {
-      float: left;
-      width: 65%;
-      box-sizing: border-box;
-   }
-
    main .left h2
    {
+      float: right;
+      width: 30%;
+      box-sizing: border-box;
       margin: 0;
-   } */
+   }
+
+   main .left section
+   {
+      margin-left: 0;
+      margin-right: 35%
+   }
 
    main article
    {
