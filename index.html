@@ -8,8 +8,10 @@
 
       <link rel="stylesheet" href="styles/style.css">
 
-      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">  <!-- Fallback: sans-serif -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> <!-- Fallback: serif -->
+      <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">   -->
+      <!-- Fallback: sans-serif -->
+      <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">  -->
+      <!-- Fallback: serif -->
 
       <link rel="icon" href="images/baljeet-square.jpg"> <!-- Add a link to icon image-->
 
@@ -21,13 +23,15 @@
          <div class="header-text clearfix">
             <h1><span class="first-name">Baljeet</span> <span class="last-name">Singh</span></h1>
 
+            <button id="menu-button"><i class="fas fa-bars fa-2x"></i></button>
+
             <nav class="header-nav">
-               <ul>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#employment">Employment</a></li>
-                  <li><a href="#volunteer">Volunteer</a></li>
-                  <li><a href="#contact">Contact</a></li>
+               <ul id="main-menu">
+                  <li><a href="#skills"><i class="fas fa-briefcase" aria-hidden="true"></i> Skills</a></li>
+                  <li><a href="#education"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
+                  <li><a href="#employment"><i class="fab fa-black-tie" aria-hidden="true"></i> Employment</a></li>
+                  <li><a href="#volunteer"><i class="fas fa-hand-holding-heart" aria-hidden="true"></i> Volunteer</a></li>
+                  <li><a href="#contact"><i class="fas fa-comment" aria-hidden="true"></i> Contact</a></li>
                </ul>
             </nav>
          </div>
@@ -98,7 +102,7 @@
 
                </section>
 
-            </article> <!--end of professional-skills-->
+            </article> <!--professional-skills ends-->
 
             <article class="education left clearfix" id="education">
 
@@ -113,7 +117,7 @@
 
                </section>
 
-            </article> <!--end of education-->
+            </article> <!--education ends-->
 
             <article class="employment right" id="employment">
 
@@ -248,7 +252,7 @@
 
          </main>
 
-      </div>   <!--wrapper div end-->
+      </div>   <!--wrapper div ends-->
 
       <footer>
 
@@ -266,6 +270,9 @@
          </article>  <!--"contact" ends-->
 
       </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="mainjq.js"></script>
 
    </body>
 </html>
