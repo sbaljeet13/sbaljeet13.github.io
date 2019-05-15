@@ -15,7 +15,7 @@ body
 
 header, footer
 {
-   background-color: #DC143C;
+   background-color: #7AABD2;
 }
 
 #portrait
@@ -36,7 +36,7 @@ h1
    font-size: 3rem;
    margin: 0;
    margin-left: 2%;
-   color: #00FFFF;
+   color: #16324A;
    text-align: left;
    float: left;
    width: 80%;
@@ -44,7 +44,7 @@ h1
 
 header button
 {
-   background-color: #DC143C;
+   background-color: #7AABD2;
    border: none;
    color: white;
    height: 4rem;
@@ -98,7 +98,7 @@ h2
 {
    font-size: 3rem;
    text-align: center;
-   color: #DC143C;
+   color: #16324A;
 }
 
 h3, h4, p, main li
@@ -129,7 +129,7 @@ p, li
 
 main a
 {
-   color: #DC143C;
+   color: #16324A;
    text-decoration: none;
    font-weight: 600;
 }
@@ -146,7 +146,7 @@ article
 
 main section
 {
-   background-color: #00FFFF;
+   background-color: #7AABD2;
    box-shadow: 0 2px 5px 2px rgba(0,0,0,.26);
    border-radius: 1rem;
    padding: 1rem;
