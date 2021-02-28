@@ -1,297 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:400,700i');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Zilla+Slab:wght@400;600&display=swap');
+/* Comfortaa Regular 400
+Zilla Slab Regular 400, Semi-bold 600 */
 
-/* Usage: font-family: 'Raleway', sans-serif;
-         font-family: 'Bree Serif', serif; */
-
-html
-{
-   scroll-behavior: smooth;
-}
-
-body
-{
+body, header p {
    margin: 0;
-}
-
-header, footer
-{
-   background-color: #7AABD2;
-}
-
-#portrait
-{
-   border-radius: 50%;
-   box-shadow: 0 2px 5px 2px rgba(0,0,0,.26);
-   width: 80%;
-   margin: 10%;
-}
-
-h1, h2, .header-nav
-{
-   font-family: 'Bree Serif', serif;
-}
-
-h1
-{
-   font-size: 3rem;
-   margin: 0;
-   margin-left: 2%;
-   color: #16324A;
-   text-align: left;
-   float: left;
-   width: 80%;
-}
-
-header button
-{
-   background-color: #7AABD2;
-   border: none;
-   color: white;
-   height: 4rem;
-   width: 18%;
    text-align: center;
 }
 
-.header-nav ul, .contact ul
-{
-   list-style-type: none;
-   padding: 0;
+header {
+   background-color: rgba(163, 132, 0, 51%);
    text-align: center;
-}
-
-#main-menu
-{
-   text-align: left;
-   display: none;
-}
-
-#main-menu i
-{
-   margin-left: 1rem;
-   width: 3rem;
-}
-
-.header-nav li, .contact li
-{
-   display: inline-block;
-   box-sizing: border-box;
-   padding: 1rem;
-}
-
-.header-nav li
-{
-    display: block;
-}
-
-.header-nav a, .contact a
-{
-   color: white;
-   text-decoration: none;
-}
-
-.header-nav li:hover, .contact li:hover
-{
-   box-shadow: 0 -1px 5px 2px rgba(0,0,0,.26);
-}
-
-h2
-{
-   font-size: 3rem;
-   text-align: center;
-   color: #16324A;
-}
-
-h3, h4, p, main li
-{
-   font-family: 'Raleway', sans-serif;
-}
-
-h3
-{
+   font-family: 'Comfortaa', cursive;
    font-size: 2rem;
-   margin: 0.5rem 0;
+   padding: 1rem 0;
 }
 
-h4, p, li
-{
-   font-size: 1.2rem;
+#portrait {
+   max-width: 200px;
+   border-radius: 50%;
+   display: block;
+   margin: 3rem auto;
 }
 
-h4
-{
-   font-weight: 700;
+main {
+   padding: 1rem 3rem;
+   font-family: 'Zilla Slab', serif;
 }
 
-p, li
-{
-   line-height: 1.7;
+.social-icons {
+   margin: 1rem;
+   color: rgba(163, 132, 0, 60%);
 }
 
-main a
-{
-   color: #16324A;
-   text-decoration: none;
-   font-weight: 600;
+.social-icons:hover {
+   margin: 1rem;
+   color: rgba(163, 132, 0, 100%);
 }
 
-main a:hover
-{
-   text-decoration: underline;
+main p {
+   line-height: 1.5rem;
 }
 
-article
-{
-   padding: 1rem;
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   font-family: 'Zilla Slab', serif;
 }
 
-main section
+@media screen and (min-width: 800px)
 {
-   background-color: #7AABD2;
-   box-shadow: 0 2px 5px 2px rgba(0,0,0,.26);
-   border-radius: 1rem;
-   padding: 1rem;
-   margin-bottom: 1rem;
-}
-
-main section .duration
-{
-   margin: 0;
-   font-size: 1.2rem;
-}
-
-main section .position
-{
-   margin: 0;
-   font-style: italic;
-}
-
-#go-to-top-arrow
-{
-    text-align: right;
-    margin: 1rem;
-    color: #DC143C;
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    position: fixed;
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px;
-    cursor: pointer;
-}
-
-footer h2
-{
-   color: white;
-}
-
-@media screen and (min-width: 900px)
-{
-   .wrapper, .header-text, .contact
-   {
-      max-width: 1200px;
+   main {
+      max-width: 400px;
       margin: auto;
    }
-
-   header
-   {
-      padding: 0;
-      position: sticky;
-      top: 0;
-   }
-
-   h1
-   {
-      text-align: left;
-      box-sizing: border-box;
-      float: left;
-   }
-
-   .header-nav
-   {
-      position: relative;
-      padding-top: 3rem;
-   }
-
-   #menu-button
-   {
-      display: none;
-   }
-
-   #main-menu
-   {
-      display: inline-block;
-   }
-
-   .header-nav ul
-   {
-      text-align: right;
-      margin: 0;
-   }
-
-   .header-nav li
-   {
-      display: inline-block;
-   }
-
-   #portrait
-   {
-      width: 60%;
-      margin: 2rem auto;
-      display: block;
-   }
-
-   main .right h2
-   {
-      float: left;
-      width: 30%;
-      box-sizing: border-box;
-      margin: 0;
-   }
-
-   main .right section
-   {
-      margin-left: 35%;
-   }
-
-   main .left h2
-   {
-      float: right;
-      width: 30%;
-      box-sizing: border-box;
-      margin: 0;
-   }
-
-   main .left section
-   {
-      margin-left: 0;
-      margin-right: 35%
-   }
-
-   main article
-   {
-      clear: both;
-      padding-top: 7rem;
-   }
-
-   footer h2
-   {
-      float: left;
-      margin: 1rem 0;
-      text-align: left;
-   }
-
-   footer .contact ul
-   {
-      text-align: right;
-   }
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-/*
-.test
-{
-   color: Red;
-} */
