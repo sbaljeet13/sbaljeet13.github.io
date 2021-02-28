@@ -29,7 +29,12 @@ main {
 
 .social-icons {
    margin: 1rem;
-   color: rgba(163, 132, 0, 51%);
+   color: rgba(163, 132, 0, 60%);
+}
+
+.social-icons:hover {
+   margin: 1rem;
+   color: rgba(163, 132, 0, 100%);
 }
 
 main p {
