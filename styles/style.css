@@ -2,6 +2,16 @@
 /* Comfortaa Regular 400
 Zilla Slab Regular 400, Semi-bold 600 */
 
+html {
+   height: 100%;
+}
+
+body {
+   min-height: 100%;
+   display: grid;
+   grid-template-rows: 4rem auto 3rem;
+}
+
 body, header p {
    margin: 0;
    text-align: center;
@@ -42,8 +52,8 @@ main p {
 }
 
 footer {
-   position: absolute;
-   bottom: 0;
+   grid-row-start: 3;
+   grid-row-end: 4;
    width: 100%;
    font-family: 'Zilla Slab', serif;
 }
